@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp
+"usart2\startup_stm32f407xx.o"
+"usart2\main.o"
+"usart2\gpio.o"
+"usart2\usart.o"
+"usart2\stm32f4xx_it.o"
+"usart2\stm32f4xx_hal_msp.o"
+"usart2\stm32f4xx_hal_tim.o"
+"usart2\stm32f4xx_hal_tim_ex.o"
+"usart2\stm32f4xx_hal_uart.o"
+"usart2\stm32f4xx_hal_rcc.o"
+"usart2\stm32f4xx_hal_rcc_ex.o"
+"usart2\stm32f4xx_hal_flash.o"
+"usart2\stm32f4xx_hal_flash_ex.o"
+"usart2\stm32f4xx_hal_flash_ramfunc.o"
+"usart2\stm32f4xx_hal_gpio.o"
+"usart2\stm32f4xx_hal_dma_ex.o"
+"usart2\stm32f4xx_hal_dma.o"
+"usart2\stm32f4xx_hal_pwr.o"
+"usart2\stm32f4xx_hal_pwr_ex.o"
+"usart2\stm32f4xx_hal_cortex.o"
+"usart2\stm32f4xx_hal.o"
+"usart2\stm32f4xx_hal_exti.o"
+"usart2\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "USART2\USART2.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "USART2.map" -o USART2\USART2.axf
