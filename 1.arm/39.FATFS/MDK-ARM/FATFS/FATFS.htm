@@ -3,7 +3,7 @@
 <title>Static Call Graph - [FATFS\FATFS.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image FATFS\FATFS.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Mon Sep 30 13:08:54 2024
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Mon Oct 07 10:57:39 2024
 <BR><P>
 <H3>Maximum Stack Usage =        592 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -663,15 +663,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
 </UL>
-<BR>[Called By]<UL><LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_init
-<LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_st7796_reginit
-<LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_st7789_reginit
-<LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ssd1963_reginit
-<LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_nt35510_reginit
-<LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_nt35310_reginit
-<LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9806_reginit
-<LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9341_reginit
-<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_TxCpltCallback
+<BR>[Called By]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_TxCpltCallback
 <LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 <LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_EXTI_Callback
 <LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SDIO_PowerState_ON
@@ -682,10 +674,10 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mymalloc
 <LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;my_mem_perused
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
 <LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SD_GetCardState
 <LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;norflash_write
 <LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;norflash_read
-<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
 <LI><a href="#[d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_show_string
 <LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SD_WriteBlocks_DMA
 <LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SD_ReadBlocks_DMA
@@ -1224,8 +1216,8 @@ Global Symbols
 <P><STRONG><a name="[ed]"></a>HAL_UART_TxCpltCallback</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, usart.o(i.HAL_UART_TxCpltCallback))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_UART_TxCpltCallback &rArr; __2printf
 </UL>
-<BR>[Calls]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
-<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
 <LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_IRQHandler
@@ -1679,6 +1671,14 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_us
 </UL>
 <BR>[Called By]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<LI><a href="#[15b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_init
+<LI><a href="#[158]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_st7796_reginit
+<LI><a href="#[157]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_st7789_reginit
+<LI><a href="#[156]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ssd1963_reginit
+<LI><a href="#[154]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_nt35510_reginit
+<LI><a href="#[153]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_nt35310_reginit
+<LI><a href="#[152]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9806_reginit
+<LI><a href="#[14f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ex_ili9341_reginit
 <LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> usmart_config.o(.data)
@@ -1919,9 +1919,9 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> usmart_config.o(.data)
 </UL>
 <P><STRONG><a name="[14f]"></a>lcd_ex_ili9341_reginit</STRONG> (Thumb, 558 bytes, Stack size 8 bytes, lcd.o(i.lcd_ex_ili9341_reginit))
-<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = lcd_ex_ili9341_reginit &rArr; HAL_Delay &rArr; delay_ms &rArr; delay_us
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = lcd_ex_ili9341_reginit &rArr; delay_ms &rArr; delay_us
 </UL>
-<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
 <LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_wr_regno
 <LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_wr_data
 </UL>
@@ -1929,9 +1929,9 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[152]"></a>lcd_ex_ili9806_reginit</STRONG> (Thumb, 834 bytes, Stack size 8 bytes, lcd.o(i.lcd_ex_ili9806_reginit))
-<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = lcd_ex_ili9806_reginit &rArr; HAL_Delay &rArr; delay_ms &rArr; delay_us
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = lcd_ex_ili9806_reginit &rArr; delay_ms &rArr; delay_us
 </UL>
-<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
 <LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_wr_regno
 <LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_wr_data
 </UL>
@@ -1939,9 +1939,9 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[153]"></a>lcd_ex_nt35310_reginit</STRONG> (Thumb, 3828 bytes, Stack size 8 bytes, lcd.o(i.lcd_ex_nt35310_reginit))
-<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = lcd_ex_nt35310_reginit &rArr; HAL_Delay &rArr; delay_ms &rArr; delay_us
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = lcd_ex_nt35310_reginit &rArr; delay_ms &rArr; delay_us
 </UL>
-<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
 <LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_wr_regno
 <LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_wr_data
 </UL>
@@ -1949,9 +1949,9 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[154]"></a>lcd_ex_nt35510_reginit</STRONG> (Thumb, 3834 bytes, Stack size 40 bytes, lcd.o(i.lcd_ex_nt35510_reginit))
-<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = lcd_ex_nt35510_reginit &rArr; HAL_Delay &rArr; delay_ms &rArr; delay_us
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = lcd_ex_nt35510_reginit &rArr; delay_ms &rArr; delay_us
 </UL>
-<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
 <LI><a href="#[155]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_reg
 <LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_wr_regno
 </UL>
@@ -1959,9 +1959,9 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[156]"></a>lcd_ex_ssd1963_reginit</STRONG> (Thumb, 368 bytes, Stack size 8 bytes, lcd.o(i.lcd_ex_ssd1963_reginit))
-<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = lcd_ex_ssd1963_reginit &rArr; HAL_Delay &rArr; delay_ms &rArr; delay_us
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = lcd_ex_ssd1963_reginit &rArr; delay_ms &rArr; delay_us
 </UL>
-<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
 <LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_wr_regno
 <LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_wr_data
 </UL>
@@ -1969,9 +1969,9 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[157]"></a>lcd_ex_st7789_reginit</STRONG> (Thumb, 426 bytes, Stack size 8 bytes, lcd.o(i.lcd_ex_st7789_reginit))
-<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = lcd_ex_st7789_reginit &rArr; HAL_Delay &rArr; delay_ms &rArr; delay_us
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = lcd_ex_st7789_reginit &rArr; delay_ms &rArr; delay_us
 </UL>
-<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
 <LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_wr_regno
 <LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_wr_data
 </UL>
@@ -1979,9 +1979,9 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[158]"></a>lcd_ex_st7796_reginit</STRONG> (Thumb, 456 bytes, Stack size 8 bytes, lcd.o(i.lcd_ex_st7796_reginit))
-<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = lcd_ex_st7796_reginit &rArr; HAL_Delay &rArr; delay_ms &rArr; delay_us
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = lcd_ex_st7796_reginit &rArr; delay_ms &rArr; delay_us
 </UL>
-<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
 <LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_wr_regno
 <LI><a href="#[151]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_wr_data
 </UL>
@@ -2007,11 +2007,11 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[15b]"></a>lcd_init</STRONG> (Thumb, 662 bytes, Stack size 40 bytes, lcd.o(i.lcd_init))
+<P><STRONG><a name="[15b]"></a>lcd_init</STRONG> (Thumb, 668 bytes, Stack size 40 bytes, lcd.o(i.lcd_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = lcd_init &rArr; lcd_ssd_backlight_set &rArr; __aeabi_dmul &rArr; _double_epilogue &rArr; _double_round
 </UL>
-<BR>[Calls]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
-<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
 <LI><a href="#[155]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_write_reg
 <LI><a href="#[150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_wr_regno
 <LI><a href="#[15c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_ssd_backlight_set
@@ -2176,12 +2176,12 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 592<LI>Call Chain = main &rArr; f_setlabel &rArr; dir_read &rArr; load_xdir &rArr; dir_next &rArr; create_chain &rArr; fill_last_frag &rArr; put_fat &rArr; move_window &rArr; sync_window &rArr; disk_write &rArr; norflash_write &rArr; norflash_write_nocheck &rArr; norflash_wait_busy &rArr; norflash_read_sr &rArr; spi1_read_write_byte &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
 </UL>
 <BR>[Calls]<UL><LI><a href="#[0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;my_mem_init
-<LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
 <LI><a href="#[161]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_init
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
 <LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sd_init
 <LI><a href="#[162]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;norflash_read_id
 <LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;norflash_init
-<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
 <LI><a href="#[d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_show_string
 <LI><a href="#[b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_show_num
 <LI><a href="#[15d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lcd_set_backlight_by_pwm

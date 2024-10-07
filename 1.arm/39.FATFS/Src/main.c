@@ -30,12 +30,12 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "delay.h"
 #include "lcd.h"
 #include "norflash.h"
 #include "exti.h"
 #include "sdio_sdcard.h"
 
-#include "delay.h"
 #include "sram.h"
 #include "mymalloc.h"
 

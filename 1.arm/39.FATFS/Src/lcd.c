@@ -617,6 +617,7 @@ void lcd_set_window(uint16_t sx, uint16_t sy, uint16_t width, uint16_t height)
  */
 void lcd_init(void)
 {		
+		delay_ms(50);
 		/* 尝试9341 ID的读取 */
     lcd_wr_regno(0xD3);
     lcddev.id = lcd_rd_data();  /* dummy read */
@@ -673,7 +674,7 @@ void lcd_init(void)
                     lcd_wr_regno(0xC501);       /* 读取ID高八位 */
                     lcddev.id |= lcd_rd_data(); /* 读回0x00 */
                     
-                    HAL_Delay(5);                /* 等待5ms, 因为0XC501指令对1963来说就是软件复位指令, 等待5ms让1963复位完成再操作 */
+                    delay_ms(5);                /* 等待5ms, 因为0XC501指令对1963来说就是软件复位指令, 等待5ms让1963复位完成再操作 */
 
                     if (lcddev.id != 0x5510)    /* 也不是NT5510,尝试看看是不是ILI9806 */
                     {
@@ -692,7 +693,8 @@ void lcd_init(void)
                             lcddev.id <<= 8;
                             lcddev.id |= lcd_rd_data(); /* 读回0x61 */
 
-                            if (lcddev.id == 0x5761) lcddev.id = 0x1963; /* SSD1963读回的ID是5761H,为方便区分,我们强制设置为1963 */
+                            if (lcddev.id == 0x5761) 
+															lcddev.id = 0x1963; /* SSD1963读回的ID是5761H,为方便区分,我们强制设置为1963 */
                         }
                     }
                 }
@@ -734,8 +736,7 @@ void lcd_init(void)
     {
         lcd_ex_ssd1963_reginit();   /* 执行SSD1963初始化 */
         lcd_ssd_backlight_set(100); /* 背光设置为最亮 */
-    }
-
+    }		
 		// 初始化完成以后,提速
     if (lcddev.id == 0x7789 || lcddev.id == 0x9341 || lcddev.id == 0x1963)  /* 7789/9341/1963 提速 */
     {

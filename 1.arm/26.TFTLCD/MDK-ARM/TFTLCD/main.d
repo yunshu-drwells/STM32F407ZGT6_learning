@@ -35,6 +35,8 @@ tftlcd\main.o: ../Inc/usart.h
 tftlcd\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 tftlcd\main.o: ../Inc/gpio.h
 tftlcd\main.o: ../Inc/fsmc.h
+tftlcd\main.o: ../Inc/delay.h
+tftlcd\main.o: ../Drivers/CMSIS/Include/core_cm4.h
 tftlcd\main.o: ../Inc/lcd.h
 tftlcd\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 tftlcd\main.o: ../Inc/exti.h

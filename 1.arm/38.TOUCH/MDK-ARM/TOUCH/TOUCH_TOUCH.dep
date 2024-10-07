@@ -1,8 +1,8 @@
 Dependencies for Project 'TOUCH', Target 'TOUCH': (DO NOT MODIFY !)
 F (startup_stm32f407xx.s)(0x66F148BF)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_TOUCH-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 523" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1"--list startup_stm32f407xx.lst --xref -o touch\startup_stm32f407xx.o --depend touch\startup_stm32f407xx.d)
-F (..\Src\lcd.c)(0x66EFFE1B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_TOUCH-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o touch\lcd.o --omf_browse touch\lcd.crf --depend touch\lcd.d)
+F (..\Src\lcd.c)(0x67034936)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_TOUCH-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o touch\lcd.o --omf_browse touch\lcd.crf --depend touch\lcd.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
-I (../Inc/lcd.h)(0x66EFFC55)
+I (../Inc/lcd.h)(0x670347B9)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x60266485)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x60266485)
 I (../Drivers/CMSIS/Include/core_cm4.h)(0x6026647F)
@@ -35,12 +35,13 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x602664BE)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x602664C8)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x602664C8)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x602664E1)
+I (../Inc/delay.h)(0x66F14AE8)
 I (../Inc/lcdfont.h)(0x66EF7653)
 I (../Inc/fsmc.h)(0x66F148BB)
 I (../Inc/main.h)(0x66F148BC)
 I (../Inc/usart.h)(0x66F148BB)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (..\Src\lcd_ex.c)(0x66EF7627)
+I (..\Src\lcd_ex.c)(0x670288FC)
 F (..\Src\ctiic.c)(0x66F14C26)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_TOUCH-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o touch\ctiic.o --omf_browse touch\ctiic.crf --depend touch\ctiic.d)
 I (../Inc/ctiic.h)(0x66F14BC4)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x60266485)
@@ -113,7 +114,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x602664C8)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x602664E1)
 F (..\Src\ft5206.c)(0x66F14353)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_TOUCH-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o touch\ft5206.o --omf_browse touch\ft5206.crf --depend touch\ft5206.d)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
-I (../Inc/lcd.h)(0x66EFFC55)
+I (../Inc/lcd.h)(0x670347B9)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x60266485)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x60266485)
@@ -147,6 +148,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x602664BE)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x602664C8)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x602664C8)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x602664E1)
+I (../Inc/delay.h)(0x66F14AE8)
 I (../Inc/touch.h)(0x66F14A76)
 I (../Inc/gt9xxx.h)(0x66F14334)
 I (../Inc/main.h)(0x66F148BC)
@@ -154,10 +156,9 @@ I (../Inc/ft5206.h)(0x66F14349)
 I (../Inc/ctiic.h)(0x66F14BC4)
 I (../Inc/usart.h)(0x66F148BB)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Inc/delay.h)(0x66F14AE8)
 F (..\Src\gt9xxx.c)(0x66F1433A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_TOUCH-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o touch\gt9xxx.o --omf_browse touch\gt9xxx.crf --depend touch\gt9xxx.d)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
-I (../Inc/lcd.h)(0x66EFFC55)
+I (../Inc/lcd.h)(0x670347B9)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x60266485)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x60266485)
@@ -191,6 +192,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x602664BE)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x602664C8)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x602664C8)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x602664E1)
+I (../Inc/delay.h)(0x66F14AE8)
 I (../Inc/touch.h)(0x66F14A76)
 I (../Inc/gt9xxx.h)(0x66F14334)
 I (../Inc/main.h)(0x66F148BC)
@@ -198,11 +200,10 @@ I (../Inc/ft5206.h)(0x66F14349)
 I (../Inc/ctiic.h)(0x66F14BC4)
 I (../Inc/usart.h)(0x66F148BB)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
-I (../Inc/delay.h)(0x66F14AE8)
 F (..\Src\touch.c)(0x66F14D26)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_TOUCH-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o touch\touch.o --omf_browse touch\touch.crf --depend touch\touch.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
-I (../Inc/lcd.h)(0x66EFFC55)
+I (../Inc/lcd.h)(0x670347B9)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x60266485)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x60266485)
 I (../Drivers/CMSIS/Include/core_cm4.h)(0x6026647F)
@@ -235,11 +236,11 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h)(0x602664BE)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x602664C8)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x602664C8)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x602664E1)
+I (../Inc/delay.h)(0x66F14AE8)
 I (../Inc/touch.h)(0x66F14A76)
 I (../Inc/gt9xxx.h)(0x66F14334)
 I (../Inc/main.h)(0x66F148BC)
 I (../Inc/ft5206.h)(0x66F14349)
-I (../Inc/delay.h)(0x66F14AE8)
 I (../Inc/i2c.h)(0x66F148BB)
 F (../Src/main.c)(0x66F14DCB)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_TOUCH-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="523" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx-o touch\main.o --omf_browse touch\main.crf --depend touch\main.d)
 I (../Inc/main.h)(0x66F148BC)
@@ -280,7 +281,7 @@ I (../Inc/usart.h)(0x66F148BB)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
 I (../Inc/gpio.h)(0x66F148BA)
 I (../Inc/fsmc.h)(0x66F148BB)
-I (../Inc/lcd.h)(0x66EFFC55)
+I (../Inc/lcd.h)(0x670347B9)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
 I (../Inc/delay.h)(0x66F14AE8)
 I (../Inc/touch.h)(0x66F14A76)

@@ -44,6 +44,8 @@ fatfs\main.o: ../Inc/usart.h
 fatfs\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 fatfs\main.o: ../Inc/gpio.h
 fatfs\main.o: ../Inc/fsmc.h
+fatfs\main.o: ../Inc/delay.h
+fatfs\main.o: ../Drivers/CMSIS/Include/core_cm4.h
 fatfs\main.o: ../Inc/lcd.h
 fatfs\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 fatfs\main.o: ../Inc/norflash.h
@@ -51,8 +53,6 @@ fatfs\main.o: ../Inc/exti.h
 fatfs\main.o: ../Inc/mymalloc.h
 fatfs\main.o: ../Drivers/CMSIS/Include/core_cm4.h
 fatfs\main.o: ../Inc/sdio_sdcard.h
-fatfs\main.o: ../Inc/delay.h
-fatfs\main.o: ../Drivers/CMSIS/Include/core_cm4.h
 fatfs\main.o: ../Inc/sram.h
 fatfs\main.o: ..\Middlewares\USMART\usmart.h
 fatfs\main.o: ..\Middlewares\USMART\usmart_port.h

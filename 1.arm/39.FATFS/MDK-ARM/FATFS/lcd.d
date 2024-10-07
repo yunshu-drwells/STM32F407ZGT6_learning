@@ -37,6 +37,8 @@ fatfs\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
 fatfs\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 fatfs\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 fatfs\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+fatfs\lcd.o: ../Inc/delay.h
+fatfs\lcd.o: ../Drivers/CMSIS/Include/core_cm4.h
 fatfs\lcd.o: ../Inc/lcdfont.h
 fatfs\lcd.o: ../Inc/fsmc.h
 fatfs\lcd.o: ../Inc/main.h

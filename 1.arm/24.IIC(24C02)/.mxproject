@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=C:/Users/Administrator/Desktop/IIC(24C02)/Inc
+HeaderPath=C:/Users/Administrator/Desktop/24.IIC(24C02)/Inc
 HeaderFiles=gpio.h;i2c.h;usart.h;stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;
-SourcePath=C:/Users/Administrator/Desktop/IIC(24C02)/Src
+SourcePath=C:/Users/Administrator/Desktop/24.IIC(24C02)/Src
 SourceFiles=gpio.c;i2c.c;usart.c;stm32f4xx_it.c;stm32f4xx_hal_msp.c;main.c;
 
 [PreviousLibFiles]

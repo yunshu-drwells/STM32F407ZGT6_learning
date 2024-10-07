@@ -2,6 +2,7 @@
 #include "usart.h"  //fputc
 #include "lcd.h"  //lcd_display_off¡¢lcd_set_backlight
 #include "stdint.h" //
+#include "delay.h"  //delay_ms
 
 extern uint8_t cur_brightness;
 extern uint8_t* str[23];
@@ -13,7 +14,7 @@ extern uint8_t* str[23];
  */
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
-    HAL_Delay(20);      /* Ïû¶¶ */
+    delay_ms(20);      /* Ïû¶¶ */
 
 		switch(GPIO_Pin){
 			case KEY0_Pin:

@@ -7,6 +7,7 @@
 "tftlcd\usart.o"
 "tftlcd\stm32f4xx_it.o"
 "tftlcd\stm32f4xx_hal_msp.o"
+"tftlcd\delay.o"
 "tftlcd\stm32f4xx_ll_fsmc.o"
 "tftlcd\stm32f4xx_hal_sram.o"
 "tftlcd\stm32f4xx_hal_tim.o"

@@ -26,6 +26,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "delay.h"
 #include "lcd.h"
 #include "exti.h"
 /* USER CODE END Includes */
@@ -98,10 +99,11 @@ int main(void)
   MX_USART1_UART_Init();
   MX_FSMC_Init();
   /* USER CODE BEGIN 2 */
+	delay_init(168);
 	lcd_init();                             /* 初始化LCD */
   g_point_color = RED;
   sprintf((char *)lcd_id, "LCD ID:%04X", lcddev.id);  /* 将LCD ID打印到lcd_id数组 */
-	HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_RESET);  //LED1亮
+	//HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_RESET);  //LED1亮
 	lcd_set_backlight_by_pwm(0xFF); // 设置占空比为255，开启背光最亮
   /* USER CODE END 2 */
 

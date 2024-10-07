@@ -41,4 +41,6 @@ fatfs\sram.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 fatfs\sram.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 fatfs\sram.o: ../Inc/lcd.h
 fatfs\sram.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+fatfs\sram.o: ../Inc/delay.h
+fatfs\sram.o: ../Drivers/CMSIS/Include/core_cm4.h
 fatfs\sram.o: ../Inc/fsmc.h

@@ -3,7 +3,7 @@
 
 #include "stdlib.h"
 #include "stm32f4xx.h"                  // Device header
-
+#include "delay.h"
 
 /* FSMC相关参数 定义 
  * 注意: 我们默认是通过FSMC块2来连接LCD, 块2有4个片选: FSMC_NE1~4

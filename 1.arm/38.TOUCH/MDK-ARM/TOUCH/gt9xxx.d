@@ -35,6 +35,8 @@ touch\gt9xxx.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h
 touch\gt9xxx.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 touch\gt9xxx.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 touch\gt9xxx.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+touch\gt9xxx.o: ../Inc/delay.h
+touch\gt9xxx.o: ../Drivers/CMSIS/Include/core_cm4.h
 touch\gt9xxx.o: ../Inc/touch.h
 touch\gt9xxx.o: ../Inc/gt9xxx.h
 touch\gt9xxx.o: ../Drivers/CMSIS/Include/core_cm4.h
@@ -45,5 +47,3 @@ touch\gt9xxx.o: ../Inc/ctiic.h
 touch\gt9xxx.o: ../Drivers/CMSIS/Include/core_cm4.h
 touch\gt9xxx.o: ../Inc/usart.h
 touch\gt9xxx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-touch\gt9xxx.o: ../Inc/delay.h
-touch\gt9xxx.o: ../Drivers/CMSIS/Include/core_cm4.h

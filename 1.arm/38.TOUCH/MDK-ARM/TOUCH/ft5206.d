@@ -35,6 +35,8 @@ touch\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h
 touch\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 touch\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 touch\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+touch\ft5206.o: ../Inc/delay.h
+touch\ft5206.o: ../Drivers/CMSIS/Include/core_cm4.h
 touch\ft5206.o: ../Inc/touch.h
 touch\ft5206.o: ../Inc/gt9xxx.h
 touch\ft5206.o: ../Drivers/CMSIS/Include/core_cm4.h
@@ -45,5 +47,3 @@ touch\ft5206.o: ../Inc/ctiic.h
 touch\ft5206.o: ../Drivers/CMSIS/Include/core_cm4.h
 touch\ft5206.o: ../Inc/usart.h
 touch\ft5206.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-touch\ft5206.o: ../Inc/delay.h
-touch\ft5206.o: ../Drivers/CMSIS/Include/core_cm4.h

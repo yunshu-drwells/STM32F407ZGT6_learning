@@ -24,7 +24,7 @@
 #include "usbd_def.h"
 #include "usb_otg.h"  //hpcd_USB_OTG_FS
 
-//#define openDebugMess
+#define openDebugMess
 
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
@@ -317,11 +317,11 @@ USBD_StatusTypeDef USBD_LL_Start(USBD_HandleTypeDef *pdev)
 
     hal_status = HAL_PCD_Start(pdev->pData);
 #ifdef openDebugMess		
-		printf("HAL_PCD_Start returned: %d\n", hal_status);
+		//printf("HAL_PCD_Start returned: %d\n", hal_status);
 #endif	
     usb_status =  USBD_Get_USB_Status(hal_status);
 #ifdef openDebugMess	
-		printf("USBD_LL_Start is called and return:(%d)\n", usb_status);
+		//printf("USBD_LL_Start is called and return:(%d)\n", usb_status);
 #endif	
     return usb_status;
 }
