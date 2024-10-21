@@ -1,0 +1,12 @@
+lwipwithfreertos\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c
+lwipwithfreertos\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+lwipwithfreertos\port.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+lwipwithfreertos\port.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+lwipwithfreertos\port.o: ../Inc/FreeRTOSConfig.h
+lwipwithfreertos\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+lwipwithfreertos\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+lwipwithfreertos\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+lwipwithfreertos\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+lwipwithfreertos\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+lwipwithfreertos\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+lwipwithfreertos\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

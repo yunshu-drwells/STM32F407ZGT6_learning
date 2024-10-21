@@ -35,6 +35,8 @@ rammanager\main.o: ../Inc/usart.h
 rammanager\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 rammanager\main.o: ../Inc/gpio.h
 rammanager\main.o: ../Inc/fsmc.h
+rammanager\main.o: ../Inc/delay.h
+rammanager\main.o: ../Drivers/CMSIS/Include/core_cm4.h
 rammanager\main.o: ../Inc/lcd.h
 rammanager\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 rammanager\main.o: ../Inc/exti.h

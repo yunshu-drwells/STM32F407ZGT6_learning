@@ -1,0 +1,10 @@
+stemwin_port_freertos\brightnesss.o: ..\Middlewares\STemWin\Application\img\main\Brightnesss.c
+stemwin_port_freertos\brightnesss.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+stemwin_port_freertos\brightnesss.o: ..\Middlewares\STemWin\inc\GUI.h
+stemwin_port_freertos\brightnesss.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+stemwin_port_freertos\brightnesss.o: ..\Middlewares\STemWin\Config\GUIConf.h
+stemwin_port_freertos\brightnesss.o: ..\Middlewares\STemWin\inc\GUI_Type.h
+stemwin_port_freertos\brightnesss.o: ..\Middlewares\STemWin\inc\LCD.h
+stemwin_port_freertos\brightnesss.o: ..\Middlewares\STemWin\inc\GUI_ConfDefaults.h
+stemwin_port_freertos\brightnesss.o: ..\Middlewares\STemWin\inc\Global.h
+stemwin_port_freertos\brightnesss.o: ..\Middlewares\STemWin\inc\GUI_Version.h

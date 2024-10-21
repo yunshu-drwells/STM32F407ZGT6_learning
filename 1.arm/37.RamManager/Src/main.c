@@ -26,6 +26,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "delay.h"
 #include "lcd.h"
 #include "exti.h"
 #include "sram.h"
@@ -105,6 +106,7 @@ int main(void)
   MX_FSMC_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
+	delay_init(168);                        /* 延时初始化 */
 	lcd_init();                             /* 初始化LCD */
   g_point_color = RED;
   sprintf((char *)lcd_id, "LCD ID:%04X", lcddev.id);  /* 将LCD ID打印到lcd_id数组 */
@@ -145,12 +147,12 @@ int main(void)
 		if (tp != p){
 				tp = p;
 				sprintf((char *)paddr, "P Addr:0X%08X", (uint32_t)tp);
-				lcd_show_string(30, 306, 209, 16, 16, (char *)paddr, BLUE); /* 显示p的地址 */
+				lcd_show_string(30, 314, 209, 16, 16, (char *)paddr, BLUE); /* 显示p的地址 */
 
 				if (p){
-						lcd_show_string(30, 290, 280, 16, 16, (char *)p, BLUE); /* 显示P的内容 */
+						lcd_show_string(30, 294, 280, 16, 16, (char *)p, BLUE); /* 显示P的内容 */
 				}	else {
-						lcd_fill(30, 290, 209, 296, WHITE);                     /* p=0,清除显示 */
+						lcd_fill(30, 294, 209, 296, WHITE);                     /* p=0,清除显示 */
 				}
 		}
 

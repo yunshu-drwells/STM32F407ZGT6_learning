@@ -1,0 +1,9 @@
+stemwin_port\gui_x.o: ..\Middlewares\STemWin\OS\GUI_X.c
+stemwin_port\gui_x.o: ..\Middlewares\STemWin\inc\GUI.h
+stemwin_port\gui_x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+stemwin_port\gui_x.o: ..\Middlewares\STemWin\Config\GUIConf.h
+stemwin_port\gui_x.o: ..\Middlewares\STemWin\inc\GUI_Type.h
+stemwin_port\gui_x.o: ..\Middlewares\STemWin\inc\LCD.h
+stemwin_port\gui_x.o: ..\Middlewares\STemWin\inc\GUI_ConfDefaults.h
+stemwin_port\gui_x.o: ..\Middlewares\STemWin\inc\Global.h
+stemwin_port\gui_x.o: ..\Middlewares\STemWin\inc\GUI_Version.h

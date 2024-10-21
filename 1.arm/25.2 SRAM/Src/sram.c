@@ -157,7 +157,7 @@ void fsmc_sram_test()
     uint8_t temp = 0;
     uint8_t pre_val = 0; /* 在地址0读到的数据 */
 	
-		lcd_show_string(30, 210, 239, 210 + 16, 16, "Ex Memory Test:   0KB", BLUE);
+		lcd_show_string(30, 210, 239, 210 + 20, 16, "Ex Memory Test:      0KB", BLUE);
 
 		/* 每隔4K字节,写入一个数据,总共写入256个数据,刚好是1M字节 */
     for (i = 0; i < 1024 * 1024; i += 4096){

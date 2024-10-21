@@ -1,0 +1,9 @@
+stemwin_port_freertos\font.o: ..\Middlewares\STemWin\Application\font\font.c
+stemwin_port_freertos\font.o: ..\Middlewares\STemWin\inc\GUI.h
+stemwin_port_freertos\font.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+stemwin_port_freertos\font.o: ..\Middlewares\STemWin\Config\GUIConf.h
+stemwin_port_freertos\font.o: ..\Middlewares\STemWin\inc\GUI_Type.h
+stemwin_port_freertos\font.o: ..\Middlewares\STemWin\inc\LCD.h
+stemwin_port_freertos\font.o: ..\Middlewares\STemWin\inc\GUI_ConfDefaults.h
+stemwin_port_freertos\font.o: ..\Middlewares\STemWin\inc\Global.h
+stemwin_port_freertos\font.o: ..\Middlewares\STemWin\inc\GUI_Version.h

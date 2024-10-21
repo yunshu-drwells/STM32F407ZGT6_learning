@@ -36,4 +36,6 @@ rammanager\sram.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 rammanager\sram.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 rammanager\sram.o: ../Inc/lcd.h
 rammanager\sram.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+rammanager\sram.o: ../Inc/delay.h
+rammanager\sram.o: ../Drivers/CMSIS/Include/core_cm4.h
 rammanager\sram.o: ../Inc/fsmc.h

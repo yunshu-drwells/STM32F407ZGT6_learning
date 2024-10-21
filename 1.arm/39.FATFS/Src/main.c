@@ -119,8 +119,7 @@ int main(void)
   MX_SDIO_SD_Init();
   MX_TIM4_Init();
   /* USER CODE BEGIN 2 */
-	delay_init(168);
-	
+	delay_init(168);                        /* 延时初始化 */
 	lcd_init();                             /* 初始化LCD */
   g_point_color = RED;
   sprintf((char *)lcd_id, "LCD ID:%04X", lcddev.id);  /* 将LCD ID打印到lcd_id数组 */
@@ -248,7 +247,7 @@ int main(void)
 			}
 			delay_ms(1000);
 	}
-	while (exfuns_get_free("0", &total_space, &free_space)) /* 得到SD卡的总容量和剩余容量 */
+	while (exfuns_get_free("0:", &total_space, &free_space)) /* 得到SD卡的总容量和剩余容量 */
 	{
 			lcd_show_string(30, 370, 200, 16, 16, "SD Card Fatfs Error!", RED);
 			delay_ms(200);

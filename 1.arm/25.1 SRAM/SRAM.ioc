@@ -2,8 +2,9 @@
 FSMC.AddressSetupTime1=2
 FSMC.BusTurnAroundDuration1=0
 FSMC.DataSetupTime1=8
-FSMC.IPParameters=WriteOperation1,AddressSetupTime1,DataSetupTime1,BusTurnAroundDuration1
-FSMC.IPParametersWithoutCheck=BusTurnAroundDuration1
+FSMC.ExtendedMode1=FSMC_EXTENDED_MODE_DISABLE
+FSMC.IPParameters=WriteOperation1,AddressSetupTime1,BusTurnAroundDuration1,ExtendedMode1,DataSetupTime1
+FSMC.IPParametersWithoutCheck=BusTurnAroundDuration1,DataSetupTime1,AddressSetupTime1
 FSMC.WriteOperation1=FSMC_WRITE_OPERATION_ENABLE
 File.Version=6
 KeepUserPlacement=false

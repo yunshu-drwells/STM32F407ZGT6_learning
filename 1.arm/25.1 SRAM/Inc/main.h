@@ -29,6 +29,7 @@ extern "C" {
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx_hal.h"
+#include "stm32f4xx_hal.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -152,7 +153,8 @@ void Error_Handler(void);
 #define UB_Pin GPIO_PIN_1
 #define UB_GPIO_Port GPIOE
 /* USER CODE BEGIN Private defines */
-
+//1MB = 1024*1024B = 
+#define BUFFER_SIZE 262144  //SRAM总大小1024*1024=262144*4Bytes，因为是外扩SRAM可支配大小就是芯片本身容量
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

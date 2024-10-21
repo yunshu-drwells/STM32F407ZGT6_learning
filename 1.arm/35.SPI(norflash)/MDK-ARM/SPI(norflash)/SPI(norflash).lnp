@@ -1,12 +1,12 @@
 --cpu=Cortex-M4.fp
 "spi(norflash)\startup_stm32f407xx.o"
+"spi(norflash)\norflash.o"
 "spi(norflash)\main.o"
 "spi(norflash)\gpio.o"
 "spi(norflash)\spi.o"
 "spi(norflash)\usart.o"
 "spi(norflash)\stm32f4xx_it.o"
 "spi(norflash)\stm32f4xx_hal_msp.o"
-"spi(norflash)\norflash.o"
 "spi(norflash)\stm32f4xx_hal_spi.o"
 "spi(norflash)\stm32f4xx_hal_tim.o"
 "spi(norflash)\stm32f4xx_hal_tim_ex.o"

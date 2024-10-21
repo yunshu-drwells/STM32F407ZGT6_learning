@@ -1,12 +1,12 @@
 --cpu=Cortex-M4.fp
 "sram\startup_stm32f407xx.o"
+"sram\sram.o"
 "sram\main.o"
 "sram\gpio.o"
 "sram\fsmc.o"
 "sram\usart.o"
 "sram\stm32f4xx_it.o"
 "sram\stm32f4xx_hal_msp.o"
-"sram\sram.o"
 "sram\stm32f4xx_ll_fsmc.o"
 "sram\stm32f4xx_hal_sram.o"
 "sram\stm32f4xx_hal_tim.o"

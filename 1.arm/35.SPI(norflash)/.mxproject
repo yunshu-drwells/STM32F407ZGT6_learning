@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=C:/Users/Administrator/Desktop/SPI(norflash)/Inc
+HeaderPath=C:/Users/Administrator/Desktop/35.SPI(norflash)/Inc
 HeaderFiles=gpio.h;usart.h;stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;spi.h;
-SourcePath=C:/Users/Administrator/Desktop/SPI(norflash)/Src
+SourcePath=C:/Users/Administrator/Desktop/35.SPI(norflash)/Src
 SourceFiles=gpio.c;usart.c;stm32f4xx_it.c;stm32f4xx_hal_msp.c;main.c;spi.c;
 
 [PreviousLibFiles]

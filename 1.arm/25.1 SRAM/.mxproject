@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=C:/Users/Administrator/Desktop/SRAM/Inc
+HeaderPath=C:/Users/Administrator/Desktop/25.1 SRAM/Inc
 HeaderFiles=gpio.h;usart.h;stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;fsmc.h;
-SourcePath=C:/Users/Administrator/Desktop/SRAM/Src
+SourcePath=C:/Users/Administrator/Desktop/25.1 SRAM/Src
 SourceFiles=gpio.c;usart.c;stm32f4xx_it.c;stm32f4xx_hal_msp.c;main.c;fsmc.c;
 
 [PreviousLibFiles]

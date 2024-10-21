@@ -1,0 +1,628 @@
+# depslib dependency file v1.0
+1509721130 source:f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\config\guiconf.c
+	"GUI.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\gui.h
+	<stddef.h>
+	"GUI_ConfDefaults.h"
+	"GUI_Type.h"
+	"GUI_Version.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\gui_confdefaults.h
+	"GUIConf.h"
+
+1509721130 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\config\guiconf.h
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\gui_type.h
+	"LCD.h"
+	"GUIConf.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\lcd.h
+	"GUI_ConfDefaults.h"
+	"Global.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\global.h
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\gui_version.h
+
+1729116710 source:f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\config\lcdconf.c
+	"GUI.h"
+
+1509721130 source:f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\config\simconf.c
+	"LCD_SIM.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\lcd_sim.h
+	"LCD.h"
+
+1509721130 source:f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\simulation\winmain.c
+	<windows.h>
+	"GUI_SIM_Win32.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\gui_sim_win32.h
+	<windows.h>
+
+1729121374 source:f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\application\maintask.c
+	"dialog.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\dialog.h
+	"WM.h"
+	"BUTTON.h"
+	"CALENDAR.h"
+	"CHECKBOX.h"
+	"CHOOSECOLOR.h"
+	"CHOOSEFILE.h"
+	"DROPDOWN.h"
+	"EDIT.h"
+	"FRAMEWIN.h"
+	"GRAPH.h"
+	"HEADER.h"
+	"ICONVIEW.h"
+	"IMAGE.h"
+	"LISTBOX.h"
+	"LISTVIEW.h"
+	"LISTWHEEL.h"
+	"MENU.h"
+	"MULTIEDIT.h"
+	"MULTIPAGE.h"
+	"PROGBAR.h"
+	"RADIO.h"
+	"SCROLLBAR.h"
+	"SLIDER.h"
+	"SPINBOX.h"
+	"SWIPELIST.h"
+	"TEXT.h"
+	"TREEVIEW.h"
+	"KNOB.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\wm.h
+	"GUI_ConfDefaults.h"
+	"GUI_Type.h"
+	"WM_GUI.h"
+	"GUI.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\wm_gui.h
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\button.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\dialog_intern.h
+	"WM.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\widget.h
+	"WM_Intern.h"
+	"SCROLLBAR.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\wm_intern.h
+	"WM.h"
+	"GUI_Private.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\gui_private.h
+	"GUI.h"
+	"LCD_Protected.h"
+	"GUI_Debug.h"
+	"WM_GUI.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\lcd_protected.h
+	"LCD.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\gui_debug.h
+	<stddef.h>
+	"GUI.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\scrollbar.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\calendar.h
+	"WM.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\checkbox.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\choosecolor.h
+	"WM.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\choosefile.h
+	"WM.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\dropdown.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"LISTBOX.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\listbox.h
+	"WM.h"
+	"WIDGET.h"
+	"DIALOG_Intern.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\edit.h
+	"WM.h"
+	"DIALOG_Intern.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\framewin.h
+	"WM.h"
+	"WIDGET.h"
+	"DIALOG_Intern.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\graph.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\header.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\iconview.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\image.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\listview.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"ICONVIEW.h"
+	"HEADER.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\listwheel.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\menu.h
+	"WM.h"
+	"WIDGET.h"
+	"DIALOG_Intern.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\multiedit.h
+	"WM.h"
+	"DIALOG_Intern.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\multipage.h
+	"WM.h"
+	"DIALOG.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\progbar.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\radio.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\slider.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\spinbox.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+	"GUI_Debug.h"
+	"EDIT.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\swipelist.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+	"GUI_Debug.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\text.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+	"GUI_Debug.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\treeview.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\gui\include\knob.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+	"GUI_Debug.h"
+
+1729122158 source:f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\application\windowdlg.c
+	"DIALOG.h"
+
+1729121922 source:f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\application\img\main\alarm.c
+	<stdlib.h>
+	"GUI.h"
+
+1729121957 source:f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\application\img\main\brightnesss.c
+	<stdlib.h>
+	"GUI.h"
+
+1729121988 source:f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\application\img\main\fan.c
+	<stdlib.h>
+	"GUI.h"
+
+1729122017 source:f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\application\img\main\humidity.c
+	<stdlib.h>
+	"GUI.h"
+
+1729122036 source:f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\application\img\main\lightingmaster.c
+	<stdlib.h>
+	"GUI.h"
+
+1729119441 source:f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\application\img\main\spotlight.c
+	<stdlib.h>
+	"GUI.h"
+
+1729122072 source:f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\application\img\main\temperature.c
+	<stdlib.h>
+	"GUI.h"
+
+1729122087 source:f:\华清录课视频\课件&资料包\lv.9 物联网智慧教室项目\d4 emwin图形界面库\03-enwin相关\01-模拟器\application\img\main\turnoff.c
+	<stdlib.h>
+	"GUI.h"
+
+1729122426 source:c:\users\administrator\desktop\01-模拟器\application\img\main\alarm.c
+	<stdlib.h>
+	"GUI.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\gui.h
+	<stddef.h>
+	"GUI_ConfDefaults.h"
+	"GUI_Type.h"
+	"GUI_Version.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\gui_confdefaults.h
+	"GUIConf.h"
+
+1509721130 c:\users\administrator\desktop\01-模拟器\config\guiconf.h
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\gui_type.h
+	"LCD.h"
+	"GUIConf.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\lcd.h
+	"GUI_ConfDefaults.h"
+	"Global.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\global.h
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\gui_version.h
+
+1729122446 source:c:\users\administrator\desktop\01-模拟器\application\img\main\brightnesss.c
+	<stdlib.h>
+	"GUI.h"
+
+1729122465 source:c:\users\administrator\desktop\01-模拟器\application\img\main\fan.c
+	<stdlib.h>
+	"GUI.h"
+
+1729122487 source:c:\users\administrator\desktop\01-模拟器\application\img\main\humidity.c
+	<stdlib.h>
+	"GUI.h"
+
+1729122504 source:c:\users\administrator\desktop\01-模拟器\application\img\main\lightingmaster.c
+	<stdlib.h>
+	"GUI.h"
+
+1729122519 source:c:\users\administrator\desktop\01-模拟器\application\img\main\spotlight.c
+	<stdlib.h>
+	"GUI.h"
+
+1729122532 source:c:\users\administrator\desktop\01-模拟器\application\img\main\temperature.c
+	<stdlib.h>
+	"GUI.h"
+
+1729122545 source:c:\users\administrator\desktop\01-模拟器\application\img\main\turnoff.c
+	<stdlib.h>
+	"GUI.h"
+
+1729186233 source:c:\users\administrator\desktop\01-模拟器\application\maintask.c
+	"dialog.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\dialog.h
+	"WM.h"
+	"BUTTON.h"
+	"CALENDAR.h"
+	"CHECKBOX.h"
+	"CHOOSECOLOR.h"
+	"CHOOSEFILE.h"
+	"DROPDOWN.h"
+	"EDIT.h"
+	"FRAMEWIN.h"
+	"GRAPH.h"
+	"HEADER.h"
+	"ICONVIEW.h"
+	"IMAGE.h"
+	"LISTBOX.h"
+	"LISTVIEW.h"
+	"LISTWHEEL.h"
+	"MENU.h"
+	"MULTIEDIT.h"
+	"MULTIPAGE.h"
+	"PROGBAR.h"
+	"RADIO.h"
+	"SCROLLBAR.h"
+	"SLIDER.h"
+	"SPINBOX.h"
+	"SWIPELIST.h"
+	"TEXT.h"
+	"TREEVIEW.h"
+	"KNOB.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\wm.h
+	"GUI_ConfDefaults.h"
+	"GUI_Type.h"
+	"WM_GUI.h"
+	"GUI.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\wm_gui.h
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\button.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\dialog_intern.h
+	"WM.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\widget.h
+	"WM_Intern.h"
+	"SCROLLBAR.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\wm_intern.h
+	"WM.h"
+	"GUI_Private.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\gui_private.h
+	"GUI.h"
+	"LCD_Protected.h"
+	"GUI_Debug.h"
+	"WM_GUI.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\lcd_protected.h
+	"LCD.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\gui_debug.h
+	<stddef.h>
+	"GUI.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\scrollbar.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\calendar.h
+	"WM.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\checkbox.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\choosecolor.h
+	"WM.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\choosefile.h
+	"WM.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\dropdown.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"LISTBOX.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\listbox.h
+	"WM.h"
+	"WIDGET.h"
+	"DIALOG_Intern.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\edit.h
+	"WM.h"
+	"DIALOG_Intern.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\framewin.h
+	"WM.h"
+	"WIDGET.h"
+	"DIALOG_Intern.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\graph.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\header.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\iconview.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\image.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\listview.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"ICONVIEW.h"
+	"HEADER.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\listwheel.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\menu.h
+	"WM.h"
+	"WIDGET.h"
+	"DIALOG_Intern.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\multiedit.h
+	"WM.h"
+	"DIALOG_Intern.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\multipage.h
+	"WM.h"
+	"DIALOG.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\progbar.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\radio.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\slider.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\spinbox.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+	"GUI_Debug.h"
+	"EDIT.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\swipelist.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+	"GUI_Debug.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\text.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+	"GUI_Debug.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\treeview.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\knob.h
+	"WM.h"
+	"DIALOG_Intern.h"
+	"WIDGET.h"
+	"GUI_Debug.h"
+
+1729184146 source:c:\users\administrator\desktop\01-模拟器\application\windowdlg.c
+	"DIALOG.h"
+
+1509721130 source:c:\users\administrator\desktop\01-模拟器\config\guiconf.c
+	"GUI.h"
+
+1729116710 source:c:\users\administrator\desktop\01-模拟器\config\lcdconf.c
+	"GUI.h"
+
+1509721130 source:c:\users\administrator\desktop\01-模拟器\config\simconf.c
+	"LCD_SIM.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\lcd_sim.h
+	"LCD.h"
+
+1509721130 source:c:\users\administrator\desktop\01-模拟器\simulation\winmain.c
+	<windows.h>
+	"GUI_SIM_Win32.h"
+
+1509721131 c:\users\administrator\desktop\01-模拟器\gui\include\gui_sim_win32.h
+	<windows.h>
+
+1729167764 source:c:\users\administrator\desktop\01-模拟器\application\img\main\blue.c
+	<stdlib.h>
+	"GUI.h"
+
+1729197678 source:c:\users\administrator\desktop\01-模拟器\application\sub\brightnesssdlg.c
+	"DIALOG.h"
+
+1729197642 source:c:\users\administrator\desktop\01-模拟器\application\sub\humiditydlg.c
+	"DIALOG.h"
+
+1729197591 source:c:\users\administrator\desktop\01-模拟器\application\sub\temperaturedlg.c
+	"DIALOG.h"
+
+1729174687 source:c:\users\administrator\desktop\01-模拟器\application\img\sub\alarmoff.c
+	<stdlib.h>
+	"GUI.h"
+
+1729174700 source:c:\users\administrator\desktop\01-模拟器\application\img\sub\fanoff.c
+	<stdlib.h>
+	"GUI.h"
+
+1729174713 source:c:\users\administrator\desktop\01-模拟器\application\img\sub\fanon.c
+	<stdlib.h>
+	"GUI.h"
+
+1729174728 source:c:\users\administrator\desktop\01-模拟器\application\img\sub\lightingmasteroff.c
+	<stdlib.h>
+	"GUI.h"
+
+1729174740 source:c:\users\administrator\desktop\01-模拟器\application\img\sub\lightingmasteron.c
+	<stdlib.h>
+	"GUI.h"
+
+1729174751 source:c:\users\administrator\desktop\01-模拟器\application\img\sub\mainpage.c
+	<stdlib.h>
+	"GUI.h"
+
+1729174763 source:c:\users\administrator\desktop\01-模拟器\application\img\sub\spotlightoff.c
+	<stdlib.h>
+	"GUI.h"
+
+1729174776 source:c:\users\administrator\desktop\01-模拟器\application\img\sub\spotlighton.c
+	<stdlib.h>
+	"GUI.h"
+
+1729178544 source:c:\users\administrator\desktop\01-模拟器\application\sub\fandlg.c
+	"DIALOG.h"
+
+1729184816 source:c:\users\administrator\desktop\01-模拟器\application\sub\lightingmasterdlg.c
+	"DIALOG.h"
+
+1729178561 source:c:\users\administrator\desktop\01-模拟器\application\sub\spotlightdlg.c
+	"DIALOG.h"
+
+1729173286 source:c:\users\administrator\desktop\01-模拟器\application\sub\turnoffdlg.c
+	"DIALOG.h"
+
+1729175326 source:c:\users\administrator\desktop\01-模拟器\application\img\sub\mainpagepressed.c
+	<stdlib.h>
+	"GUI.h"
+
+1729178336 source:c:\users\administrator\desktop\01-模拟器\application\sub\alarmdlg.c
+	"DIALOG.h"
+
+1729176740 source:c:\users\administrator\desktop\01-模拟器\application\img\sub\subbrightnesss.c
+	<stdlib.h>
+	"GUI.h"
+
+1729176752 source:c:\users\administrator\desktop\01-模拟器\application\img\sub\subhumidity.c
+	<stdlib.h>
+	"GUI.h"
+
+1729176766 source:c:\users\administrator\desktop\01-模拟器\application\img\sub\subtemperature.c
+	<stdlib.h>
+	"GUI.h"
+
+1729184419 source:c:\users\administrator\desktop\01-模拟器\application\font\font.c
+	"GUI.h"
+

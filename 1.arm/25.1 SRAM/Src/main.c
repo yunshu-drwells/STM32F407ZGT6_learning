@@ -104,10 +104,21 @@ int main(void)
   MX_FSMC_Init();
   /* USER CODE BEGIN 2 */
 	//给SRAM中开辟的数组赋值
+
 	for (ts = 0; ts < BUFFER_SIZE; ts++){
-			g_test_buffer[ts] = ts;         /* 预存测试数据 */
+		g_test_buffer[ts] = ts;         // 预存测试数据 [0:262143]
 	}
 	printf("Test buffer data evaluationed down!\n");
+
+	/*
+	for (ts = 0; ts < BUFFER_SIZE; ts++){
+		if(ts != g_test_buffer[ts]){
+			printf("%d is error, %d\n", ts, g_test_buffer[ts]);
+		}
+			//printf("%u ", g_test_buffer[ts]);         // 打印测试数据 
+	}
+	printf("\n");
+	*/
   /* USER CODE END 2 */
 
   /* Infinite loop */

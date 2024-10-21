@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="Application\sub\HumidityDLG.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5669" topLine="51" />
+		</Cursor>
+	</File>
+	<File name="Application\WindowDLG.c" open="1" top="1" tabpos="4" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5834" topLine="125" />
+		</Cursor>
+	</File>
+	<File name="Application\sub\TemperatureDLG.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5661" topLine="59" />
+		</Cursor>
+	</File>
+	<File name="Config\GUIConf.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="33" />
+		</Cursor>
+	</File>
+	<File name="Application\sub\LightingMasterDLG.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3722" topLine="90" />
+		</Cursor>
+	</File>
+	<File name="Config\LCDConf.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="167" />
+		</Cursor>
+	</File>
+	<File name="Application\font\font.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="24029" topLine="290" />
+		</Cursor>
+	</File>
+	<File name="Application\sub\BrightnesssDLG.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5655" topLine="62" />
+		</Cursor>
+	</File>
+	<File name="Application\sub\AlarmDLG.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="12" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5366" topLine="130" />
+		</Cursor>
+	</File>
+	<File name="Application\sub\SpotlightDLG.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5597" topLine="122" />
+		</Cursor>
+	</File>
+	<File name="Application\mainTask.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="980" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Application\sub\FanDLG.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3860" topLine="108" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

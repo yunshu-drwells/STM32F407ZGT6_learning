@@ -1,0 +1,10 @@
+stemwin_port_freertos\fanon.o: ..\Middlewares\STemWin\Application\img\sub\FanOn.c
+stemwin_port_freertos\fanon.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+stemwin_port_freertos\fanon.o: ..\Middlewares\STemWin\inc\GUI.h
+stemwin_port_freertos\fanon.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+stemwin_port_freertos\fanon.o: ..\Middlewares\STemWin\Config\GUIConf.h
+stemwin_port_freertos\fanon.o: ..\Middlewares\STemWin\inc\GUI_Type.h
+stemwin_port_freertos\fanon.o: ..\Middlewares\STemWin\inc\LCD.h
+stemwin_port_freertos\fanon.o: ..\Middlewares\STemWin\inc\GUI_ConfDefaults.h
+stemwin_port_freertos\fanon.o: ..\Middlewares\STemWin\inc\Global.h
+stemwin_port_freertos\fanon.o: ..\Middlewares\STemWin\inc\GUI_Version.h

@@ -23,15 +23,19 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 				p = mymalloc(sramx, 2048);  /* 申请2K字节,并写入内容,显示在lcd屏幕上面 */
 				if (p != NULL){
 						sprintf((char *)p, "Memory Malloc Test%03d", i);            /* 向p写入一些内容 */
-						lcd_show_string(30, 290, 209, 16, 16, (char *)p, BLUE);     /* 显示P的内容 */
+						lcd_show_string(30, 294, 209, 16, 16, (char *)p, BLUE);     /* 显示P的内容 */
 				}
-
 				break;	
 			case  KEY1_Pin:
 				/*key1*/
 				printf("KEY1 press,start free! \n");
-				myfree(sramx, p);   /* 释放内存 */
-        p = 0;              /* 指向空地址 */
+				if (p != NULL){
+					lcd_fill(30, 294, 209+20, 90 + 16, WHITE);
+					sprintf((char *)p, "Memory free %x", p);            // 向p写入一些内容 
+					lcd_show_string(30, 294, 209, 16, 16, (char *)p, BLUE);     // 显示P的内容 
+					myfree(sramx, p);   // 释放内存 
+				}
+        p = 0;              // 指向空地址
 				break;
 			case  KEY2_Pin:
 				/*key2*/

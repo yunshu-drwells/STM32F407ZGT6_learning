@@ -32,6 +32,8 @@ rammanager\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
 rammanager\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 rammanager\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 rammanager\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+rammanager\lcd.o: ../Inc/delay.h
+rammanager\lcd.o: ../Drivers/CMSIS/Include/core_cm4.h
 rammanager\lcd.o: ../Inc/lcdfont.h
 rammanager\lcd.o: ../Inc/fsmc.h
 rammanager\lcd.o: ../Inc/main.h

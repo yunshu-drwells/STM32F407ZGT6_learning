@@ -1,10 +1,8 @@
-#include "main.h"  //LEDx、KEYx引脚定义、fsmc_sram_test
+#include "main.h"  //LEDx、KEYx引脚定义、fsmc_sram_test、BUFFER_SIZE
 #include "usart.h"  //fputc
 #include "stm32f4xx_hal_gpio.h"  //HAL_GPIO_TogglePin、HAL_GPIO_ReadPin
 
-#define BUFFER_SIZE 262144  //SRAM总大小1024*1024=262144*4Bytes，因为是外扩SRAM可支配大小就是芯片本身容量
-
-extern uint32_t g_test_buffer[BUFFER_SIZE];  //总计1000 000Byte数据
+extern uint32_t g_test_buffer[BUFFER_SIZE];  //总计262144*4Byte数据
 extern uint32_t ts;
 int8_t diff = 0; 
 /**

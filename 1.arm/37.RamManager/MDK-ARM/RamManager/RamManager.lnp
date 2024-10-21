@@ -9,6 +9,7 @@
 "rammanager\lcd.o"
 "rammanager\mymalloc.o"
 "rammanager\sram.o"
+"rammanager\delay.o"
 "rammanager\stm32f4xx_ll_fsmc.o"
 "rammanager\stm32f4xx_hal_sram.o"
 "rammanager\stm32f4xx_hal_tim.o"
